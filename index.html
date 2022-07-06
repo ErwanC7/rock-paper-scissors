@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css"/>
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+<div class="score">
+  <p>You</p>
+  <p>AI</p>
+  <p id="player-score">0</p>
+  <p id="ai-score">0</p>
+  <div id="reset">Restart</div>
+</div>
+<div class="action">
+  <p id="message">Your turn !</p>
+  <div id="next">Next round</div>
+</div>
+<div class="game">
+  <div class="choice">
+    <div class="button btn-player" id="rock">
+      <img src="./assets/rock.png" alt="rock"/>
+      <p>Rock</p>
+    </div>
+    <div class="button btn-player" id="paper">
+      <img src="./assets/paper.png" alt="paper"/>
+      <p>Paper</p>
+    </div>
+    <div class="button btn-player" id="scissors">
+      <img src="./assets/scissors.png" alt="scissors"/>
+      <p>Scissors</p>
+    </div>
+  </div>
+  <div class="choice">
+    <div class="button btn-ai" id="ai-rock">
+      <img src="./assets/rock.png" alt="rock"/>
+      <p>Rock</p>
+    </div>
+    <div class="button btn-ai" id="ai-paper">
+      <img src="./assets/paper.png" alt="paper"/>
+      <p>Paper</p>
+    </div>
+    <div class="button btn-ai" id="ai-scissors">
+      <img src="./assets/scissors.png" alt="scissors"/>
+      <p>Scissors</p>
+    </div>
+  </div>
+</div>
+<script src="./app.js"></script>
+</body>
+</html>
